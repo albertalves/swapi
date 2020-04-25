@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+a:hover {
+    color: #000000;
+}
+#name::placeholder {
+    color: #495057;
+}
+.form {
+    width: 300px;
+    background: #1C1C1C;
+    border: 3px solid #0e0e0e;
+    padding: 20px;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: 'Tahoma';
+    font-size: 11px;
+}
+.balao {
+    width: auto;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: #1C1C1C;
+    border: 2px solid #0e0e0e;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.triangulo {
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #0e0e0e;
+    float: right;
+    margin-right: 100px;
+}
+.conteudo-balao {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+}
+.han-solo {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.interacao {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.falcon {
+    display: none;
+}
+.msgValidaPax, .msgValidaPeso {
+    color: #B22222;
+    font-size: 10px;
+    font-family: 'Tahoma';
+    display: none;
+}
+.borderRed 
+{
+    border: 2px solid #B22222
+}
+.texto {
+    width: 500px;
+    color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-shadow: 4px 2px 10px #ccc;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.viajantes {
+    display: flex;
+    justify-content: center;
+}
+.sobre {
+    height: auto;
+    width: 300px;
+    background: #1C1C1C;
+    border: 2px solid #0e0e0e;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre-titulo {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.borda {
+    height: 2px;
+    width: 50px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.descricao {
+    font-size: 12px;
+    text-align: center;
+}
+.sub-title {
+    cursor: pointer;
+}

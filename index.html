@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio SWAPI</title>
+</head>
+<body>
+<div class="logo d-flex justify-content-center">
+    <img src="assets/images/logo.png" width="150" height="150"/>
+</div>
+        
+<div class="container d-flex justify-content-center">
+    <div class="panel">
+        <div class="sobre">
+            <div class="sobre-titulo">Missão</div>
+            <div class="borda"></div>
+            <div class="descricao">
+                <a href="https://swapi.dev/api/people/14/" target="_blank" class="sub-title" title="https://swapi.dev/api/people/14/">Han Solo</a> está pilotando a nave <a href="https://swapi.dev/api/starships/10/" target="_blank" class="sub-title" title="https://swapi.dev/api/starships/10/">Millennium Falcon</a>. 
+                Ele vai pousar em um planeta, pegar 6 passageiros. 5 deles são personagens aleatórios do filme <a href="https://swapi.dev/api/films/1/" target="_blank" class="sub-title" title="https://swapi.dev/api/films/1/">'A nova esperança'</a>
+                e você será o sexto passageiro.
+            </div>
+        </div>
+        <div class="form">
+            <div class="form-group">
+            <label for="name" class="control-label">Nome:</label>
+            <input type="text" id="name" name="name" class="form-control form-control-sm" placeholder="Insira o nome do passageiro"/>
+            <span class="msgValidaPax">Insira o nome do passageiro</span>
+            </div>
+
+            <div class="form-group">
+            <label for="peso" class="control-label">Peso (Kg): </label>
+            <input type="text" id="peso" name="peso" class="form-control form-control-sm"/>
+            <span class="msgValidaPeso">Insira o peso</span>
+            </div>
+            
+            <div class="form-group">
+            <input type="submit" value="Iniciar Viagem" class="btn btn-sm btn-block btn-dark" onclick="iniciarViagem()"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="interacao">
+    <div class="falcon">
+        <img src="assets/images/millenniumFalcon.png" width="400" height="200"/>
+    </div>
+    <div class="texto welcome"></div>
+    <div class="texto viajantes"></div>
+</div>
+<div class="conteudo-balao">
+    <div class="balao">
+        I'm gonna be a pilot. Best in the Galaxy.
+    </div>
+    <div class="triangulo"></div>
+</div>
+<div class="han-solo">
+    <img src="assets/images/han-solo.svg" width="100" height="100" />
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jQuery.weightMask.min.js"></script>
+<script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
