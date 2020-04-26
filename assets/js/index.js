@@ -134,9 +134,10 @@ function exibirMensagem() {
         $('.texto').fadeIn(500);
     }
     else {
+        $('.falcon').hide();
         $('.welcome').hide();
         $('.viajantes').hide();
-        $('.capacidadeAtingida').append("Han Solo diz: A capacidade máxima foi atingida");
+        $('.capacidadeAtingida').html("Han Solo diz: A capacidade máxima foi atingida");
     }
     // Após exibir a mensagem, limpar os dados para um nova consulta.
     limparDados();
