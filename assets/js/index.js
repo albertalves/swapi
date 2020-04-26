@@ -134,6 +134,8 @@ function exibirMensagem() {
         $('.texto').fadeIn(500);
     }
     else {
+        $('.falcon').hide();
+        $('.texto').hide();
         $('.welcome').append("Han Solo diz: A capacidade máxima foi atingida");
     }
     // Após exibir a mensagem, limpar os dados para um nova consulta.
