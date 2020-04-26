@@ -130,6 +130,7 @@ function exibirMensagem() {
         $('.welcome').html(htmlWelcome);
         $('.viajantes').html(htmlViajantes);
 
+        $('.capacidadeAtingida').hide();
         $('.falcon').fadeIn(700);
         $('.texto').fadeIn(500);
     }
